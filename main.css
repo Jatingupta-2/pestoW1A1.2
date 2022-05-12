@@ -109,3 +109,25 @@
     align-items: center;
     padding: 0 2rem;
   }
+
+  @media (max-width:786px) {
+    .cattyboard-top{
+        padding: 3rem 0.5rem 3rem 2vw;
+    }
+    .cattyboard-top__title--main{
+        font-size: 1rem;
+    }
+    .cattyboard-songs li{
+        height: 10vh;
+    }
+    .cattyboard-song{
+       font-size: 0.75rem
+      }
+    .cattyboard-song span{
+        margin-right: 0.5rem;
+        width: 5rem;
+    }
+    .cattyboard-song button{
+        margin-left: 0;
+    }
+  }
