@@ -24,11 +24,12 @@
   }
   .cattyboard-body{
       height: 90vh;
+      padding-left: 4vw;
   }
   .cattyboard-top{
     background: #454545;
     height: 35vh;
-    padding: 3rem 3rem 3rem 6vw;
+    padding: 3rem 3rem 3rem 2vw;
     display: flex;
   }
   .cattyboard-top__title{
@@ -56,6 +57,31 @@
   .cattyboard-top__title--footer span{
       margin-right: 1.2rem;
   }
+  .cattyboard-songs ul{
+      list-style: none;
+      padding:2rem 0;
+        margin: 0;
+  }
+  .cattyboard-songs li{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    margin-left: 0.75rem;
+    background: #F0F0F0;
+  }
+  .cattyboard-songs li:nth-child(odd) { background: #fff; }
+  .cattyboard-song{
+    display: flex;
+    padding: 0 0.8rem;
+  }
+  .cattyboard-song span{
+      margin-right: 3rem;
+      width: 12rem;
+  }
+  .cattyboard-song button{
+      margin-left: 5rem;
+  }
+
   footer{
       background: #546398;
       height: 10vh;
