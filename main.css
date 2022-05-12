@@ -1,3 +1,25 @@
 * {
     box-sizing: border-box;
   }
+  body{
+      padding: 0;
+      margin: 0;
+  }
+  nav{
+    background: #c2c2c9;
+    height: 90vh;
+    width: 4vw;
+    position: fixed;
+  }
+  .cattyboard-body{
+      
+      height: 90vh;
+  }
+  .cattyboard-top{
+    background: #56565c;
+    height: 30vh;
+  }
+  footer{
+      background: #5b5bcb;
+      height: 10vh;
+  }
