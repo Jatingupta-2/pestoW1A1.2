@@ -80,6 +80,9 @@
   }
   .cattyboard-song button{
       margin-left: 5rem;
+      background: #fff;
+      color: blue;
+      border: 1px solid #646161;
   }
 
   footer{
